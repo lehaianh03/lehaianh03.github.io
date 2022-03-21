@@ -1,0 +1,374 @@
+.row-banner
+{
+	/*width: 100%;*/
+	height: 440px;
+	overflow: hidden;//tránh lỗi hình quá lớn đè lên nội dung các phần khác
+	box-sizing: border-box;//cố định kích thước của slide
+}
+
+#menu
+{
+	/*position: -webkit-sticky;*/
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	height: 72px;
+	background-color: #8FD1D1;
+}
+
+#menu a 
+{
+	color: white;
+}
+
+#menu li strong
+{
+	font-size: 20px;
+}
+
+#drop-menu
+{
+	background-color: #8FD1D1;
+}
+
+#drop-menu > li a 
+{
+	font-weight: bold;
+}
+
+#wrap
+{
+	margin-top: 20px;
+	background-color: #EFEEEE;
+}
+
+
+#dangki
+{
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 20px;
+}
+
+#dangki a 
+{
+	text-decoration: none;
+}
+
+
+#dangnhap
+{
+	padding-right: 25px;
+	font-size: 20px;
+}
+
+#dangnhap a 
+{
+	text-decoration: none;
+}
+
+
+.d-flex label i 
+{
+	font-size: 20px;
+	color: white;
+	margin-top: 7px;
+
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+#search
+{
+	border-radius: 20px;
+	width: 250px;
+
+}
+
+#kinhlup
+{
+	margin-left: 5px;
+}
+
+
+#ed 
+{
+	padding-top: 80px;
+}
+
+#giakhoidiem
+{
+	text-align: left;
+	font-weight: normal;
+	font-family: cursive;
+}
+
+h1, p 
+{
+	text-align: center;
+}
+
+.card-title
+{
+	height: 100px;
+}
+
+.container-fluid img
+{
+	height: 200px;
+	width: 250px;
+}
+
+.container-fluid > a img
+{
+	height: 50px;
+	width: 70px;
+}
+
+.card-text
+{
+	font-size: 40px;
+	color: darkred;
+	font-weight: bold;
+}
+
+.btn-outline-primary
+{
+	width: 100%;
+}
+
+#others
+{
+	background-color: #C4C4C4;
+	padding-top: 70px;
+	margin-top: 50px;
+	padding-bottom: 120px;
+	/*height: 2500px;*/
+}
+
+.btn-outline-primary
+{
+	font-weight: bold;
+}
+
+h5 a 
+{
+	font-size: 15px;
+	text-decoration: none;
+}
+
+#footer
+{
+	/*padding-top: 80px;*/
+	/*margin-top: 50px;*/
+	background-color: #EFEEEE;
+	height: 750px;
+
+}
+
+#thongtin
+{
+	text-align: center;
+}
+
+#anhfooter
+{
+	width: 1215px; 
+	height: 400px;
+	margin-left: -12px;
+}
+
+
+#ten
+{
+	font-size: 20px;
+	margin-left: 50px;
+	text-align: left;
+}
+
+
+#nentang
+{
+	text-align: right;
+	padding-top: -200px;
+	margin-top: -190px;
+	margin-right: 100px;
+	text-decoration: none;
+}
+
+#nentang i 
+{
+	font-size: 50px;
+	letter-spacing: 12px;
+	padding-right: -70px;
+}
+
+.nav_bars-btn{
+	height: 28px;
+	width: 28px;
+	display: none;
+}
+
+@media only screen and (max-width: 414px)
+{
+	*
+	{
+		max-width: 414px;
+	}
+	.carousel-inner > img
+	{
+		height: 220px;
+	}
+
+	.offcanvas-body
+	{
+		background-color: #8FD1D1;
+		list-style-type: none;
+	}
+
+	#dangki
+	{
+		padding-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	#dangnhap
+	{
+		padding-left: 15px;
+	}
+
+	.nav_bars-btn{
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		text-align: center;
+	}
+
+
+	#kinhlup
+	{
+		color: black;
+	}
+
+	#wrap
+	{
+		margin-top: 0px;
+		width: 414px;
+	}
+
+	#ed 
+	{
+		margin-top: 0px;
+		width: 414px;
+		padding-top: 10px;
+
+	}
+
+	.row
+	{
+		overflow: hidden;
+	}
+
+	#others
+	{
+		/*margin-top: 50px;*/
+		padding-top: 0px;
+		margin-bottom: -50px;
+		width: 414px;
+	}
+	.col-6
+	{
+		width: 166px;
+		height: 200px;
+		/*margin-top: 20px;*/
+		margin-bottom: 80px;
+	}
+
+	.container-fluid img 
+	{
+		width: 166px;
+		max-height: 120px;
+	}
+
+
+	.card-title
+	{
+		font-size: 10px;
+	}
+
+	.card-text
+	{
+		font-size: 15px;
+		margin-top: -90px;
+	}
+
+	#giakhoidiem
+	{
+		margin-top: -20px;
+		margin-left: -15px;
+	}
+
+	.btn-outline-primary
+	{
+		width: 150px;
+	}
+
+	#footer
+	{
+		width: 414px;
+		height: 400px;
+		margin-left: -15px;
+		
+	}
+
+	#anhfooter
+	{
+		width: 414px;
+		margin-left: 3px;
+	}
+
+	#thongtin > h2
+	{
+		font-size: 15px;
+	}
+
+	#contact  h2
+	{
+		font-size: 15px;
+		margin-left: -70px;
+	}
+
+	#ten
+	{
+		font-size: 10px;
+		text-align: left;
+		margin-left: 20px;
+	}
+
+
+	#nentang
+	{
+		text-align: right;
+		padding-top: -200px;
+		margin-top: -128px;
+		margin-right: 20px;
+		text-decoration: none;
+	}
+
+	#nentang > h2
+	{
+		font-size: 15px;
+		margin-right: 30px;
+	}
+
+	#nentang i 
+	{
+		font-size: 40px;
+		letter-spacing: 10px;
+	}
+}

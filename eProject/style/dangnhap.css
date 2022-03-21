@@ -1,0 +1,118 @@
+*
+{
+	height: auto;
+}
+
+.container-fulid img
+{
+	height: auto;
+}
+
+.container-fulid 
+{
+  position: relative;
+}
+
+#bangdnhap
+{
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-200px, -200px);
+  font-size: 18px;
+
+  border: 2px solid;
+  border-radius: 40px;
+  width: 400px;
+  height: 500px;
+  margin-right: 100px;
+
+  background-color: white;
+}
+
+#uname
+{
+	width: 350px; 
+	margin: 20px; 
+	padding: 10px; 
+	margin-top: -10px;
+}
+
+#pwd
+{
+	width: 350px; 
+	margin: 20px; 
+	padding: 10px; 
+	margin-top: -10px;
+}
+
+#bangdnhap input
+{
+	border-radius: 5px;
+	height: 60px;
+
+}
+
+img 
+{ 
+  width: 100%;
+  height: 585px;
+  opacity: 0.5;
+}
+
+h1
+{
+	text-align: center;
+}
+
+p 
+{
+	text-align: center;
+	font-size: 13px;
+}
+
+#dnhap
+{
+	margin-left: 95px;
+	width: 200px; height: 60px; 
+	border-radius: 15px; 
+	background-color: #8FD1D1;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+/*Mobile */
+@media only screen and (max-width:  414px)
+{
+	img
+	{
+		height: 896px;
+	}
+
+	form 
+	{
+		margin-top: 10px;
+		margin-left: 25px;
+	}
+
+	#bangdnhap
+	{
+		width: 350px;
+	}
+
+	#uname
+	{
+		width: 300px;
+	}
+
+	#pwd
+	{
+		width: 300px;
+	}
+
+	#dnhap 
+	{
+		margin-left: 70px;
+	}
+}

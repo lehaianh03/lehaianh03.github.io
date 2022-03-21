@@ -1,0 +1,428 @@
+#menu
+{
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	height: 72px;
+	background-color: #8FD1D1;
+}
+
+#menu a 
+{
+	color: white;
+}
+
+#menu li strong
+{
+	font-size: 20px;
+}
+
+#drop-menu
+{
+	background-color: #8FD1D1;
+}
+
+.container-fluid > a img
+{
+	height: 50px;
+	width: 70px;
+}
+
+#drop-menu > li a 
+{
+	font-weight: bold;
+}
+
+#wrap
+{
+	margin-top: 20px;
+	background-color: #EFEEEE;
+}
+
+
+#dangki
+{
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 20px;
+}
+
+#dangki a 
+{
+	text-decoration: none;
+}
+
+
+#dangnhap
+{
+	padding-right: 25px;
+	font-size: 20px;
+}
+
+#dangnhap a 
+{
+	text-decoration: none;
+}
+
+
+.d-flex label i 
+{
+	font-size: 20px;
+	color: white;
+	margin-top: 7px;
+
+}
+
+#search
+{
+	border-radius: 20px;
+	width: 250px;
+
+}
+
+#kinhlup
+{
+	margin-left: 5px;
+}
+
+
+#anhspham
+{
+	border: 2px solid;
+	border-radius: 40px;
+	width: 784px;
+	height: 736px;
+	margin-top: 50px;
+}
+
+#anhphu
+{
+	width: 125px;
+	height: 127px;
+	border: 1px solid;
+	margin-top: 40px;
+}
+
+
+
+#anhto
+{
+	width: 532px; 
+	height: 340px;
+	margin-top: -350px;
+	margin-bottom: 120px;
+	margin-left: 200px;
+}
+
+#gia
+{
+	
+	border: 2px solid;
+	border-radius: 40px;
+	width: 412px;
+	height: 736px;
+	margin-left: 19px;
+	margin-top: 50px;
+}
+
+#gia p
+{
+	margin-left: 28px;
+	font-size: 20px;
+}
+#gia > h2
+{
+	text-align: center;
+}
+
+#banggia
+{
+	border: 1px solid;
+	width: 332px;
+	height: 520px;
+	margin-left: 28px;
+	margin-top: 30px;
+	background-color: #C4C4C4;
+	border-radius: 20px;
+}
+
+#banggia > h1
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+#banggia > h3
+{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: red;
+}
+
+#bids 
+{
+	padding-left: 200px;
+
+}
+
+#banggia > a div
+{
+	width: 273px;
+	height: 95px;
+	text-align: center;
+	font-size: 40px;
+	border-radius: 40px;
+	margin-left: 30px;
+	margin-top: 35px;
+	padding-top: 15px;
+}
+
+#nhapgia > p > input
+{
+	width: 273px;
+	height: 65px;
+}
+
+#info
+{
+	margin-top: 70px;
+}
+
+#description
+{
+	
+	font-size: 20px;
+}
+
+#info-spham
+{
+	/*white-space: pre;
+	margin-left: -175px;*/
+	margin-top: -20px;
+}
+
+#info-spham > textarea
+{
+	width: 737px;
+	height: 500px;
+	border: 0px solid;
+	resize: none;
+}
+
+#time
+{
+	
+	margin-left: 791px;
+	margin-top: -555px;
+}
+
+#time > div > h3
+{
+	text-align: center;
+}
+
+
+#start_end_time
+{
+	border: 1px solid;
+	border-radius: 40px;
+	width: 412px;
+	height: 248px;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+#footer
+{
+	margin-top: 300px;
+}
+
+#thongtin
+{
+	text-align: center;
+}
+
+
+
+#ten
+{
+	font-size: 20px;
+	margin-left: 60px;
+}
+
+
+#nentang
+{
+	text-align: right;
+	margin-top: -195px;
+	margin-right: 100px;
+	text-decoration: none;
+}
+
+#nentang i 
+{
+	font-size: 50px;
+	letter-spacing: 12px;
+	padding-right: -70px;
+}
+
+.nav_bars-btn{
+	height: 28px;
+	width: 28px;
+	display: none;
+}
+
+@media only screen and (max-width: 414px)
+{	
+	#menu
+	{
+		height: 50px;
+	}
+
+	#menu li strong 
+	{
+		font-size: 20px;
+	}
+
+	.container-fluid > a > img
+	{
+		width: 40px;
+		height: 30px;
+		margin-top: -10px;
+	}
+
+	.offcanvas-body
+	{
+		background-color: #8FD1D1;
+		list-style-type: none;
+	}
+
+	#dangki
+	{
+		padding-left: 15px;
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+
+	#dangnhap
+	{
+		padding-left: 15px;
+	}
+
+	.nav_bars-btn{
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		text-align: center;
+	}
+
+
+	#kinhlup
+	{
+		color: black;
+	}
+
+	#anhspham
+	{
+		height: 400px;
+		margin-top: 20px;
+	}
+
+	#gia
+	{
+		height: 400px;
+		margin-top: 20px;
+	}
+
+	#banggia
+	{
+		height: 250px;
+		margin-top: 5px;
+	}
+
+	#anhphu
+	{
+		margin-top: 40px;
+		width: 80px;
+		height: 80px;
+	}
+
+
+
+	#anhto
+	{
+		width: 220px;
+		height: 180px;
+		margin-left: 160px;
+		overflow: hidden;
+	}
+
+	#gia
+	{
+		margin-left: 0px;
+		width: 414px;
+	}
+
+	#banggia > h3
+	{
+		font-size: 30px;
+	}
+
+	#banggia > a div
+	{
+		width: 150px;
+		height: 50px;
+		text-align: center;
+		font-size: 20px;
+		border-radius: 40px;
+		margin-top: -200px;
+		margin-left: 160px;
+	}
+
+	#banggia p 
+	{
+		margin-top: -2px;
+	}
+
+	#nhapgia > p > input
+	{
+		width: 130px;
+		height: 50px;
+		border-radius: 20px;
+		margin-top: -15px;
+		margin-left: -10px;
+	}
+
+	#info
+	{
+		margin-top: 20px;
+	}
+
+	#time
+	{
+		margin-left: -10px;
+		margin-top: -20px;
+		margin-bottom: 10px;
+	}
+
+	#start_end_time
+	{
+		font-size: 20px;
+		height: 175px;
+		margin-top: -10px;
+	}
+
+	#info-spham > textarea
+	{
+		width: 412px;
+		height: 150px;
+		border: 0px solid;
+		resize: none;
+		margin-top: 5px;
+		margin-left: -10px;
+	}
+
+}
